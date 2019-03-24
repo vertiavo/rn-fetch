@@ -70,7 +70,7 @@ export default class ListScreen extends Component {
               </View>
             </TouchableOpacity>
           )}
-          keyExtractor={({ id }, index) => id}
+          keyExtractor={({ id }, index) => id.toString()}
         />
       </View>
     );

@@ -81,7 +81,16 @@ export default class DetailsScreen extends Component {
               <Text style={styles.labelText}>Budget</Text>
             </View>
             <View style={styles.propertyValue}>
-              <Text>{movie.budget}$</Text>
+              <Text>$ {movie.budget}</Text>
+            </View>
+          </View>
+
+          <View style={styles.propertyRow}>
+            <View style={styles.propertyLabel}>
+              <Text style={styles.labelText}>Revenue</Text>
+            </View>
+            <View style={styles.propertyValue}>
+              <Text>$ {movie.revenue}</Text>
             </View>
           </View>
 
